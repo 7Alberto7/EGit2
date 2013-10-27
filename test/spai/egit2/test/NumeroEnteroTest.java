@@ -29,8 +29,9 @@ public class NumeroEnteroTest {
 
     @Test
     public void testIncrementar() {
-        this.numero.incrementar();
-        assertEquals(101, this.numero.getValor());
+    	int x = 3;
+        this.numero.incrementar(3);
+        assertEquals(103, this.numero.getValor());
     }
 
     @Test
