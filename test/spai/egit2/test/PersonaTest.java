@@ -49,7 +49,7 @@ public class PersonaTest {
     
     @Test
     public void testNombreMayuscula(){
-    	assertEquals("ANA",this.persona.nombreMayusculas());
+    	assertEquals("ANA VEGA",this.persona.nombreMayusculas());
     }
 
 }
