@@ -32,8 +32,7 @@ public class NumeroEntero {
     }
 
 	public void incrementar(int i) {
-		// TODO Auto-generated method stub
-		
+		this.valor = this.valor + i;
 	}
 
 }
