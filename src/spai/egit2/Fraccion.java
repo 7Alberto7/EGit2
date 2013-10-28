@@ -78,8 +78,14 @@ public class Fraccion {
 
 	public static Fraccion multiplicarFracciones(Fraccion fraccion1,
 			Fraccion fraccion2) {
-		// TODO Auto-generated method stub
-		return null;
+		int x;
+		int y;
+		
+		x = fraccion1.numerador * fraccion2.numerador;
+		y = fraccion1.denominador * fraccion2.denominador;
+		Fraccion frac = new Fraccion (x,y);
+		
+				return frac;
 	}
 
 }
