@@ -68,8 +68,7 @@ public class Fraccion {
 	}
 
 	public boolean isImpropia() {
-		// TODO Auto-generated method stub
-		return false;
+		return ( (this.getNumerador()/this.getDenominador() ) > 1 );
 	}
 
 	public boolean isEquivalente(Fraccion fraccion1) {
