@@ -34,37 +34,52 @@ package spai.egit2;
  * 
  */
 public class Fraccion {
-    private int numerador;
+	private int numerador;
 
-    private int denominador;
+	private int denominador;
 
-    public Fraccion(int numerador, int denominador) {
-        this.numerador = numerador;
-        this.denominador = denominador;
-    }
+	public Fraccion(int numerador, int denominador) {
+		this.numerador = numerador;
+		this.denominador = denominador;
+	}
 
-    public Fraccion() {
-        this(1, 1);
-    }
+	public Fraccion() {
+		this(1, 1);
+	}
 
-    public int getNumerador() {
-        return numerador;
-    }
+	public int getNumerador() {
+		return numerador;
+	}
 
-    public void setNumerador(int numerador) {
-        this.numerador = numerador;
-    }
+	public void setNumerador(int numerador) {
+		this.numerador = numerador;
+	}
 
-    public int getDenominador() {
-        return denominador;
-    }
+	public int getDenominador() {
+		return denominador;
+	}
 
-    public void setDenominador(int denominador) {
-        this.denominador = denominador;
-    }
+	public void setDenominador(int denominador) {
+		this.denominador = denominador;
+	}
 
-    public double decimal() {
-        return (double) numerador / denominador;
-    }
+	public double decimal() {
+		return (double) numerador / denominador;
+	}
+
+	public boolean isImpropia() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public static boolean areEquivalents(Fraccion fraccion1, Fraccion fraccion2) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	public static Fraccion multiplicarFracciones(Fraccion fraccion1,Fraccion fraccion2){
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
