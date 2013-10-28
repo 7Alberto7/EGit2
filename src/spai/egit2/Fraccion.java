@@ -74,7 +74,9 @@ public class Fraccion {
 
 	public boolean isEquivalente(Fraccion fraccion1) {
 		// TODO Auto-generated method stub
-		return false;
+		return ((this.getNumerador() * fraccion1.getDenominador()) == (this
+				.getDenominador() * fraccion1.getNumerador()));
+
 	}
 
 	public static Fraccion multiplicarFracciones(Fraccion fraccion1,
