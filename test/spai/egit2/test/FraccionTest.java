@@ -52,15 +52,9 @@ public class FraccionTest {
 	}
 
 	@Test
-	public void testAreEquivalents() {
-
-		Fraccion fraccion1 = new Fraccion(2, 4);
-		Fraccion fraccion2 = new Fraccion(4, 8);
-		
-		assertEquals(
-				(fraccion1.getNumerador() * fraccion2.getDenominador()) == 
-				(fraccion1.getDenominador() * fraccion2.getNumerador()) , 
-				Fraccion.areEquivalents(fraccion1,fraccion2));
+	public void testIsEquivalente() {
+		Fraccion fraccion1 = new Fraccion(6, 9);
+		assertTrue(fraccion.isEquivalente(fraccion1));
 	}
 	
 	@Test

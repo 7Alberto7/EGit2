@@ -72,12 +72,13 @@ public class Fraccion {
 		return false;
 	}
 
-	public static boolean areEquivalents(Fraccion fraccion1, Fraccion fraccion2) {
+	public boolean isEquivalente(Fraccion fraccion1) {
 		// TODO Auto-generated method stub
 		return false;
 	}
-	
-	public static Fraccion multiplicarFracciones(Fraccion fraccion1,Fraccion fraccion2){
+
+	public static Fraccion multiplicarFracciones(Fraccion fraccion1,
+			Fraccion fraccion2) {
 		// TODO Auto-generated method stub
 		return null;
 	}

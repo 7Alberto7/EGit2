@@ -31,4 +31,9 @@ public class NumeroEntero {
         this.valor--;
     }
 
+	public void incrementar(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
