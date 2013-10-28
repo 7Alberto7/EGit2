@@ -31,4 +31,8 @@ public class NumeroEntero {
         this.valor--;
     }
 
+	public void incrementar(int i) {
+		this.valor = this.valor + i;
+	}
+
 }
