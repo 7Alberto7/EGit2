@@ -8,27 +8,28 @@ import org.junit.Test;
 import spai.egit2.ColeccionDecimales;
 
 public class ColeccionDecimalesTest {
-    private ColeccionDecimales numeros; 
+	private ColeccionDecimales numeros;
 
-    @Before
-    public void initObjects() {
-        double[] coleccion = {1.2, 3.4, 1.2};
-        this.numeros = new ColeccionDecimales(coleccion);
-    }
+	@Before
+	public void initObjects() {
+		double[] coleccion = { 1.2, 3.4, 1.2 };
+		this.numeros = new ColeccionDecimales(coleccion);
+	}
 
-    @Test
-    public void testSuma() {
-        assertEquals(5.8, this.numeros.suma(), 1e-10);
-    }
+	@Test
+	public void testSuma() {
+		assertEquals(5.8, this.numeros.suma(), 1e-10);
+	}
 
-    @Test
-    public void testMayor() {
-        assertEquals(3.4, this.numeros.mayor(), 1e-10);
-    }
-    
-    @Test
-    public void testMultiplicacion() {
-        assertEquals(4.9, this.numeros.multiplicar(), 1e-10);
-    }
+	@Test
+	public void testMayor() {
+		assertEquals(4.9, this.numeros.mayor(), 1e-10);
+	}
+
+	@Test
+	public void testMultiplicacion() {
+		 assertEquals(4.896, this.numeros.multiplicar(), 1e-10);
+
+	}
 
 }
