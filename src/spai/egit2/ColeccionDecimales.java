@@ -35,7 +35,11 @@ public class ColeccionDecimales {
 	}
 
 	public double multiplicar() {
-		return -1;
+		double producto = 1;
+		for (double item : this.coleccion) {
+				producto = item*producto;
+		}
+		return producto;
 	}
 
 }
